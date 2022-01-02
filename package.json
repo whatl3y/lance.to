@@ -1,27 +1,20 @@
 {
-  "name": "my-portfolio-site",
+  "name": "lance.to",
   "version": "1.0.0",
   "description": "My portfolio and resume site",
-  "main": "./node_modules/.bin/http-server",
   "scripts": {
-    "dev": "nf start",
-    "start": "./node_modules/.bin/http-server www"
+    "start": "http-server www"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whatl3y/my-portfolio-site.git"
+    "url": "git+https://github.com/whatl3y/lance.to.git"
   },
   "author": "Lance Whatley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whatl3y/my-portfolio-site/issues"
+    "url": "https://github.com/whatl3y/lance.to/issues"
   },
   "dependencies": {
-    "@slack/client": "^5.0.2",
-    "http-server": "git+https://github.com/whatl3y/http-server.git",
-    "request": "^2.83.0"
-  },
-  "devDependencies": {
-    "foreman": "^3.0.1"
+    "http-server": "^14.0.0"
   }
 }
